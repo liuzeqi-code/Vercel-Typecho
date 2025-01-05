@@ -41,7 +41,7 @@ $db->addServer(array (
   'password' => 'adminwpqw',
   'charset' => 'utf8mb4',
   'port' => '3306',
-  'database' => '数据库名',
+  'database' => 'typechodb',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
